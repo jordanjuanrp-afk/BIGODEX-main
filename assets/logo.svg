@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#C5A059"/>
+      <stop offset="50%" style="stop-color:#D4B06A"/>
+      <stop offset="100%" style="stop-color:#B28B45"/>
+    </linearGradient>
+    <linearGradient id="darkGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#947134"/>
+      <stop offset="100%" style="stop-color:#745627"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Outer circle -->
+  <circle cx="100" cy="90" r="80" fill="none" stroke="url(#gold)" stroke-width="4"/>
+  <circle cx="100" cy="90" r="72" fill="none" stroke="url(#darkGold)" stroke-width="2"/>
+  
+  <!-- Scissors -->
+  <g transform="translate(100,55)">
+    <!-- Left blade -->
+    <ellipse cx="-15" cy="0" rx="6" ry="22" fill="url(#gold)" transform="rotate(-30)"/>
+    <!-- Right blade -->
+    <ellipse cx="15" cy="0" rx="6" ry="22" fill="url(#gold)" transform="rotate(30)"/>
+    <!-- Center screw -->
+    <circle cx="0" cy="0" r="4" fill="url(#darkGold)"/>
+  </g>
+  
+  <!-- Mustache -->
+  <g transform="translate(100,85)">
+    <path d="M-35,0 Q-25,-18 -10,-15 Q0,-20 10,-15 Q25,-18 35,0 Q25,8 10,5 Q0,10 -10,5 Q-25,8 -35,0 Z" fill="url(#gold)"/>
+  </g>
+  
+  <!-- BIGODEX text -->
+  <text x="100" y="128" text-anchor="middle" font-family="Georgia, serif" font-weight="900" font-size="28" fill="url(#gold)" letter-spacing="4">BIGODEX</text>
+  
+  <!-- BARBEARIA text -->
+  <text x="100" y="148" text-anchor="middle" font-family="Georgia, serif" font-weight="700" font-size="14" fill="url(#darkGold)" letter-spacing="8">BARBEARIA</text>
+  
+  <!-- Decorative lines -->
+  <line x1="30" y1="155" x2="80" y2="155" stroke="url(#gold)" stroke-width="1.5"/>
+  <line x1="120" y1="155" x2="170" y2="155" stroke="url(#gold)" stroke-width="1.5"/>
+  
+  <!-- Bottom chair icon -->
+  <g transform="translate(100,170)">
+    <rect x="-8" y="-4" width="16" height="8" rx="2" fill="url(#gold)"/>
+    <rect x="-6" y="4" width="3" height="6" fill="url(#darkGold)"/>
+    <rect x="3" y="4" width="3" height="6" fill="url(#darkGold)"/>
+    <rect x="-10" y="10" width="7" height="2" rx="1" fill="url(#gold)"/>
+    <rect x="3" y="10" width="7" height="2" rx="1" fill="url(#gold)"/>
+  </g>
+</svg>

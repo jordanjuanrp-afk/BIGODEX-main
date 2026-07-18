@@ -1,0 +1,6 @@
+{
+  "name": "Barbearia Bigodex - Unidade Eucaliptos",
+  "description": "Site oficial da Barbearia Bigodex (Unidade Eucaliptos) em Fazenda Rio Grande - PR. Agendamentos rápidos, catálogo de serviços, seleção de barbeiros profissionais, horários de pico e avaliações dos clientes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
